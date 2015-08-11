@@ -1,0 +1,45 @@
+security:
+    providers:
+        fos_userbundle:
+            id: fos_user.user_provider.username
+
+    encoders:
+        FOS\UserBundle\Model\UserInterface: bcrypt
+
+    role_hierarchy:
+        ROLE_SUPER_ADMIN: [ROLE_ADMIN, ROLE_BACKEND, ROLE_ALLOWED_TO_SWITCH, ROLE_DEBUG]
+        ROLE_BACKEND:     ROLE_USER
+
+    firewalls:
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+
+        phlexible_login:
+            pattern:   ^/admin/login$
+            anonymous: true
+
+        phlexible:
+            pattern:    ^/admin
+            form_login:
+                provider:      fos_userbundle
+                csrf_provider: security.csrf.token_manager
+                login_path:    fos_user_security_login
+                check_path:    fos_user_security_check
+            logout:
+                path:     fos_user_security_logout
+                target:   /admin
+            anonymous:    true
+            switch_user:
+                role:     ROLE_ALLOWED_TO_SWITCH
+            remember_me:
+                key:      %secret%
+                lifetime: 604800
+                path:     /
+                domain:   ~
+
+    access_control:
+         - { path: ^/admin/login$, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+         - { path: ^/admin/users/asset, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+         - { path: ^/admin/resetting, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+         - { path: ^/admin, roles: ROLE_BACKEND }

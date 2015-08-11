@@ -1,0 +1,83 @@
+phlexible_accesscontrol:
+    resource: "@PhlexibleAccessControlBundle/Controller/"
+    type:     annotation
+
+phlexible_dashboard:
+    resource: "@PhlexibleDashboardBundle/Controller/"
+    type:     annotation
+
+phlexible_datasources:
+    resource: "@PhlexibleDataSourceBundle/Controller/"
+    type:     annotation
+
+phlexible_elements:
+    resource: "@PhlexibleElementBundle/Controller/"
+    type:     annotation
+
+phlexible_elementtypes:
+    resource: "@PhlexibleElementtypeBundle/Controller/"
+    type:     annotation
+
+phlexible_frontend_preview:
+    resource: "@PhlexibleFrontendBundle/Controller/PreviewController.php"
+    type:     annotation
+
+phlexible_frontendmedia_folder:
+    resource: "@PhlexibleFrontendMediaBundle/Controller/FolderController.php"
+    type:     annotation
+
+phlexible_gui:
+    resource: "@PhlexibleGuiBundle/Controller/"
+    type:     annotation
+
+phlexible_mediamanager:
+    resource: "@PhlexibleMediaManagerBundle/Controller/"
+    type:     annotation
+
+phlexible_mediatemplates:
+    resource: "@PhlexibleMediaTemplateBundle/Controller/"
+    type:     annotation
+
+phlexible_mediatypes:
+    resource: "@PhlexibleMediaTypeBundle/Controller/"
+    type:     annotation
+
+phlexible_messages:
+    resource: "@PhlexibleMessageBundle/Controller/"
+    type:     annotation
+
+phlexible_metasets:
+    resource: "@PhlexibleMetaSetBundle/Controller/"
+    type:     annotation
+
+phlexible_problems:
+    resource: "@PhlexibleProblemBundle/Controller/"
+    type:     annotation
+
+phlexible_queue:
+    resource: "@PhlexibleQueueBundle/Controller/"
+    type:     annotation
+
+phlexible_search:
+    resource: "@PhlexibleSearchBundle/Controller/"
+    type:     annotation
+
+phlexible_siteroots:
+    resource: "@PhlexibleSiterootBundle/Controller/"
+    type:     annotation
+
+#phlexible_tasks:
+#    resource: "@PhlexibleTaskBundle/Controller/"
+#    type:     annotation
+
+phlexible_teasers_layout:
+    resource: "@PhlexibleTeaserBundle/Controller/LayoutController.php"
+    type:     annotation
+
+phlexible_tree:
+    resource: "@PhlexibleTreeBundle/Controller/"
+    type:     annotation
+
+phlexible_users:
+    resource: "@PhlexibleUserBundle/Controller/"
+    type:     annotation

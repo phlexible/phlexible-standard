@@ -1,0 +1,24 @@
+/app/config/parameters.yml
+/build/
+/bin/
+!/bin/console
+!/bin/symfony_requirements
+/composer.phar
+/phpunit.xml
+/.puli
+/.sass-cache/
+/vendor/
+/var/bootstrap.php.cache
+/var/SymfonyRequirements.php
+/var/cache/*
+/var/logs/*
+!/var/cache/.gitkeep
+!/var/logs/.gitkeep
+/var/session
+/var/spool/*
+/web/bundles/
+/web/app_dev.php
+
+### development tool directories ###
+/bower_components/
+/node_modules/

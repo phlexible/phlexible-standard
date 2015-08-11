@@ -1,0 +1,140 @@
+imports:
+    - { resource: parameters.yml }
+    - { resource: security.yml }
+    - { resource: services.yml }
+
+# Put parameters here that don't need to change on each machine where the app is deployed
+# http://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
+parameters:
+    locale: en
+
+framework:
+    #esi:             ~
+    translator:      { fallbacks: ["%locale%"] }
+    secret:          "%secret%"
+    router:
+        resource: "%kernel.root_dir%/config/routing.yml"
+        strict_requirements: ~
+    form:            ~
+    csrf_protection: ~
+    validation:      { enable_annotations: true }
+    #serializer:      { enable_annotations: true }
+    templating:
+        engines: ['twig']
+        #assets_version: SomeVersionScheme
+    default_locale:  "%locale%"
+    trusted_hosts:   ~
+    trusted_proxies: ~
+    session:
+        # handler_id set to null will use default session handler from php.ini
+        handler_id:  ~
+    fragments:       ~
+    http_method_override: true
+
+# Twig Configuration
+twig:
+    debug:            "%kernel.debug%"
+    strict_variables: "%kernel.debug%"
+
+# Doctrine Configuration
+doctrine:
+    dbal:
+        driver:   pdo_mysql
+        host:     "%database_host%"
+        port:     "%database_port%"
+        dbname:   "%database_name%"
+        user:     "%database_user%"
+        password: "%database_password%"
+        charset:  UTF8
+        # if using pdo_sqlite as your database driver:
+        #   1. add the path in parameters.yml
+        #     e.g. database_path: "%kernel.root_dir%/data/data.db3"
+        #   2. Uncomment database_path in parameters.yml.dist
+        #   3. Uncomment next line:
+        #     path:     "%database_path%"
+
+    orm:
+        auto_generate_proxy_classes: "%kernel.debug%"
+        naming_strategy: doctrine.orm.naming_strategy.underscore
+        auto_mapping: true
+
+# Swiftmailer Configuration
+swiftmailer:
+    transport: "%mailer_transport%"
+    host:      "%mailer_host%"
+    username:  "%mailer_user%"
+    password:  "%mailer_password%"
+    spool:     { type: memory }
+
+# activate translator
+framework:
+    translator: { fallback: "%locale%" }
+
+# CMF Routing Bundle
+cmf_routing: ~
+
+# Igorw File Serve Bundle
+igorw_file_serve:
+    factory: php # php
+    #factory: sendfile # nginx
+    #factory: xsendfile # apache
+
+# FOS User Bundle
+fos_user:
+    db_driver: orm
+    firewall_name: phlexible
+    user_class: Phlexible\Bundle\UserBundle\Entity\User
+
+phlexible_gui:
+    project:
+        title:   Your Project Title
+        version: 1.0.0
+        url:     project.dev
+    languages:
+        default:   en
+        available: en,de
+    mail:
+        from_name:  John Doe
+        from_email: john.doe@example.com
+
+phlexible_cms:
+    languages:
+        default: de
+        available: en,de
+
+phlexible_meta_set:
+    languages:
+        default: de
+        available: en,de
+
+phlexible_media_cache:
+    storages:
+        default:
+            id: phlexible_media_cache.storage.local #doku
+            options:
+                storage_dir: %media_cache_storage_dir%
+
+phlexible_media_manager:
+    volumes:
+        default:
+            id: 492d88c5-dd48-4d73-b849-1cacc0a80056 #doku
+            root_dir: %media_manager_root_dir%
+            quota: 1000000000 #doku
+            driver: phlexible_media_manager.driver.doctrine #doku
+
+phlexible_media_tool:
+    swftools:
+        pdf2swf: %tool_pdf2swf%
+    poppler:
+        pdfinfo: %tool_pdfinfo%
+        pdftotext: %tool_pdftotext%
+        pdftohtml: %tool_pdftohtml%
+    mime:
+        file: %tool_file%
+    ffmpeg:
+        ffprobe: %tool_ffprobe%
+        ffmpeg: %tool_ffmpeg%
+    imagine:
+        driver: %imagine_driver%  #doku
+    image_analyzer:
+        driver: %image_analyzer_driver%  #doku

@@ -1,0 +1,15 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+phlexible_frontendmedia_media:
+    resource: "@PhlexibleFrontendMediaBundle/Controller/MediaController.php"
+    type:     annotation
+
+phlexible_teaser_render:
+    resource: "@PhlexibleTeaserBundle/Controller/RenderController.php"
+    type:     annotation
+
+admin:
+    resource: admin_routing.yml
+    prefix:   /admin

@@ -1987,7 +1987,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@git.brainbits.net/phlex/phlexible.git",
-                "reference": "4370075d585bfaf89549c1b0121a31bf59eef0fb"
+                "reference": "7476f9c4387daf07133d327b058d7cb27cf62e24"
             },
             "require": {
                 "alchemy/zippy": "~0.2.1",
@@ -2057,7 +2057,7 @@
             "keywords": [
                 "phlexible"
             ],
-            "time": "2015-08-12 08:00:44"
+            "time": "2015-08-19 13:01:47"
         },
         {
             "name": "php-ffmpeg/extras",

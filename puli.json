@@ -1,6 +1,11 @@
 {
     "version": "1.0",
     "name": "brainbits/phlexible-standard",
+    "config": {
+        "repository": {
+            "type": "filesystem"
+        }
+    },
     "packages": {
         "alchemy/binary-driver": {
             "install-path": "vendor/alchemy/binary-driver",

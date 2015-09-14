@@ -1,0 +1,7 @@
+myconfig:
+    path:
+        extensions: php
+
+    logging:
+        report:
+            html: build/metrics/index.html

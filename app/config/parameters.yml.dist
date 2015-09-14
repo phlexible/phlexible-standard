@@ -18,6 +18,9 @@ parameters:
     # A secret key that's used to generate certain security-related tokens
     secret:            ThisTokenIsNotSoSecretChangeIt
 
+    debug_toolbar:   true
+    debug_redirects: true
+
     # phlexible
     tool_pdf2swf:            ~
     tool_pdfinfo:            ~
@@ -30,3 +33,4 @@ parameters:
     media_cache_storage_dir: ~
     imagine_driver: phlexible_media_tool.imagine.imagick
     image_analyzer_driver: phlexible_media_tool.image_analyzer.driver.imagick
+    PROJECT.dev: PROJECT.USERNAME.brainbits-gmbh.local

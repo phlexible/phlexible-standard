@@ -66,10 +66,6 @@ swiftmailer:
     password:  "%mailer_password%"
     spool:     { type: memory }
 
-# activate translator
-framework:
-    translator: { fallback: "%locale%" }
-
 # CMF Routing Bundle
 cmf_routing: ~
 
@@ -121,6 +117,10 @@ phlexible_media_manager:
             root_dir: %media_manager_root_dir%
             quota: 1000000000 #doku
             driver: phlexible_media_manager.driver.doctrine #doku
+
+phlexible_siteroot:
+    mappings:
+        PROJECT.dev: %PROJECT.dev%
 
 phlexible_media_tool:
     swftools:

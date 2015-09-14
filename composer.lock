@@ -5,6 +5,7 @@
         "This file is @generated automatically"
     ],
     "hash": "286a77fafb456ccf05da54619c78ac67",
+    "content-hash": "8faa2c28f175b8ca84a26eaae05c2f14",
     "packages": [
         {
             "name": "alchemy/binary-driver",
@@ -337,16 +338,16 @@
         },
         {
             "name": "doctrine/annotations",
-            "version": "v1.2.6",
+            "version": "v1.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "f4a91702ca3cd2e568c3736aa031ed00c3752af4"
+                "reference": "f25c8aab83e0c3e976fd7d19875f198ccf2f7535"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/f4a91702ca3cd2e568c3736aa031ed00c3752af4",
-                "reference": "f4a91702ca3cd2e568c3736aa031ed00c3752af4",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/f25c8aab83e0c3e976fd7d19875f198ccf2f7535",
+                "reference": "f25c8aab83e0c3e976fd7d19875f198ccf2f7535",
                 "shasum": ""
             },
             "require": {
@@ -401,20 +402,20 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2015-06-17 12:21:22"
+            "time": "2015-08-31 12:32:49"
         },
         {
             "name": "doctrine/cache",
-            "version": "v1.4.1",
+            "version": "v1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "c9eadeb743ac6199f7eec423cb9426bc518b7b03"
+                "reference": "8c434000f420ade76a07c64cbe08ca47e5c101ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/c9eadeb743ac6199f7eec423cb9426bc518b7b03",
-                "reference": "c9eadeb743ac6199f7eec423cb9426bc518b7b03",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/8c434000f420ade76a07c64cbe08ca47e5c101ca",
+                "reference": "8c434000f420ade76a07c64cbe08ca47e5c101ca",
                 "shasum": ""
             },
             "require": {
@@ -471,7 +472,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-04-15 00:11:59"
+            "time": "2015-08-31 12:36:41"
         },
         {
             "name": "doctrine/collections",
@@ -541,16 +542,16 @@
         },
         {
             "name": "doctrine/common",
-            "version": "v2.5.0",
+            "version": "v2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/common.git",
-                "reference": "cd8daf2501e10c63dced7b8b9b905844316ae9d3"
+                "reference": "0009b8f0d4a917aabc971fb089eba80e872f83f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/common/zipball/cd8daf2501e10c63dced7b8b9b905844316ae9d3",
-                "reference": "cd8daf2501e10c63dced7b8b9b905844316ae9d3",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/0009b8f0d4a917aabc971fb089eba80e872f83f9",
+                "reference": "0009b8f0d4a917aabc971fb089eba80e872f83f9",
                 "shasum": ""
             },
             "require": {
@@ -610,7 +611,7 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2015-04-02 19:55:44"
+            "time": "2015-08-31 13:00:22"
         },
         {
             "name": "doctrine/dbal",
@@ -1022,16 +1023,16 @@
         },
         {
             "name": "doctrine/orm",
-            "version": "v2.5.0",
+            "version": "v2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/doctrine2.git",
-                "reference": "aa80c7d2c55a372f5f9f825f5c66dbda53a6e3fe"
+                "reference": "e6a83bedbe67579cb0bfb688e982e617943a2945"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/aa80c7d2c55a372f5f9f825f5c66dbda53a6e3fe",
-                "reference": "aa80c7d2c55a372f5f9f825f5c66dbda53a6e3fe",
+                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/e6a83bedbe67579cb0bfb688e982e617943a2945",
+                "reference": "e6a83bedbe67579cb0bfb688e982e617943a2945",
                 "shasum": ""
             },
             "require": {
@@ -1095,7 +1096,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2015-04-02 20:40:18"
+            "time": "2015-08-31 12:59:39"
         },
         {
             "name": "evenement/evenement",
@@ -1562,16 +1563,16 @@
         },
         {
             "name": "justinrainbow/json-schema",
-            "version": "1.4.4",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/justinrainbow/json-schema.git",
-                "reference": "8dc9b9d85ab639ca60ab4608b34c1279d6ae7bce"
+                "reference": "a4bee9f4b344b66e0a0d96c7afae1e92edf385fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/8dc9b9d85ab639ca60ab4608b34c1279d6ae7bce",
-                "reference": "8dc9b9d85ab639ca60ab4608b34c1279d6ae7bce",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/a4bee9f4b344b66e0a0d96c7afae1e92edf385fe",
+                "reference": "a4bee9f4b344b66e0a0d96c7afae1e92edf385fe",
                 "shasum": ""
             },
             "require": {
@@ -1592,8 +1593,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "JsonSchema": "src/"
+                "psr-4": {
+                    "JsonSchema\\": "src/JsonSchema/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1624,7 +1625,7 @@
                 "json",
                 "schema"
             ],
-            "time": "2015-07-14 16:29:50"
+            "time": "2015-09-08 22:28:04"
         },
         {
             "name": "michelf/php-markdown",
@@ -1679,16 +1680,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.16.0",
+            "version": "1.17.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "c0c0b4bee3aabce7182876b0d912ef2595563db7"
+                "reference": "0524c87587ab85bc4c2d6f5b41253ccb930a5422"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/c0c0b4bee3aabce7182876b0d912ef2595563db7",
-                "reference": "c0c0b4bee3aabce7182876b0d912ef2595563db7",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/0524c87587ab85bc4c2d6f5b41253ccb930a5422",
+                "reference": "0524c87587ab85bc4c2d6f5b41253ccb930a5422",
                 "shasum": ""
             },
             "require": {
@@ -1705,7 +1706,7 @@
                 "php-console/php-console": "^3.1.3",
                 "phpunit/phpunit": "~4.5",
                 "phpunit/phpunit-mock-objects": "2.3.0",
-                "raven/raven": "~0.8",
+                "raven/raven": "~0.11",
                 "ruflin/elastica": ">=0.90 <3.0",
                 "swiftmailer/swiftmailer": "~5.3",
                 "videlalvaro/php-amqplib": "~2.4"
@@ -1751,7 +1752,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2015-08-09 17:44:44"
+            "time": "2015-08-31 09:17:37"
         },
         {
             "name": "nelmio/api-doc-bundle",
@@ -1987,7 +1988,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@git.brainbits.net/phlex/phlexible.git",
-                "reference": "7476f9c4387daf07133d327b058d7cb27cf62e24"
+                "reference": "2cafc0b8c046516e8ef8ef3c79217b84a2ffadb1"
             },
             "require": {
                 "alchemy/zippy": "~0.2.1",
@@ -2057,7 +2058,7 @@
             "keywords": [
                 "phlexible"
             ],
-            "time": "2015-08-19 13:01:47"
+            "time": "2015-09-01 15:44:03"
         },
         {
             "name": "php-ffmpeg/extras",
@@ -2460,32 +2461,33 @@
         },
         {
             "name": "puli/composer-plugin",
-            "version": "1.0.0-beta6",
+            "version": "1.0.0-beta7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/puli/composer-plugin.git",
-                "reference": "5854048a686ab1bdec602f43dc5ea7a65156554e"
+                "reference": "0dff06ecc96d8d281b78b85558a5208cc39dab5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/puli/composer-plugin/zipball/5854048a686ab1bdec602f43dc5ea7a65156554e",
-                "reference": "5854048a686ab1bdec602f43dc5ea7a65156554e",
+                "url": "https://api.github.com/repos/puli/composer-plugin/zipball/0dff06ecc96d8d281b78b85558a5208cc39dab5a",
+                "reference": "0dff06ecc96d8d281b78b85558a5208cc39dab5a",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1.0",
-                "puli/discovery": "^1.0@beta",
-                "puli/repository": "^1.0@beta",
-                "puli/url-generator": "^1.0@beta",
+                "puli/discovery": "^1.0-beta7",
+                "puli/repository": "^1.0-beta7",
+                "puli/url-generator": "^1.0-beta2",
                 "symfony/process": "^2.3",
                 "webmozart/assert": "^1.0",
-                "webmozart/key-value-store": "^1.0@beta",
-                "webmozart/path-util": "^2.0"
+                "webmozart/key-value-store": "^1.0-beta5",
+                "webmozart/path-util": "^2.2"
             },
             "require-dev": {
-                "composer/composer": "^1.0@dev",
+                "composer/composer": "^1.0-alpha10",
                 "phpunit/phpunit": "^4.6",
-                "symfony/filesystem": "^2.3"
+                "symfony/filesystem": "^2.3",
+                "webmozart/glob": "^3.1"
             },
             "type": "composer-plugin",
             "extra": {
@@ -2511,32 +2513,34 @@
             ],
             "description": "Integrates Composer into the Puli package manager.",
             "homepage": "http://puli.io",
-            "time": "2015-08-12 13:55:31"
+            "time": "2015-08-24 20:29:45"
         },
         {
             "name": "puli/discovery",
-            "version": "1.0.0-beta6",
+            "version": "1.0.0-beta7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/puli/discovery.git",
-                "reference": "37f7bbe3980410893e3b6e9c5a86a5a4c38fb02a"
+                "reference": "5e61c5d6c4d6f49ac24ae490e6a180b74440e729"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/puli/discovery/zipball/37f7bbe3980410893e3b6e9c5a86a5a4c38fb02a",
-                "reference": "37f7bbe3980410893e3b6e9c5a86a5a4c38fb02a",
+                "url": "https://api.github.com/repos/puli/discovery/zipball/5e61c5d6c4d6f49ac24ae490e6a180b74440e729",
+                "reference": "5e61c5d6c4d6f49ac24ae490e6a180b74440e729",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9",
                 "puli/repository": "^1.0",
                 "webmozart/assert": "^1.0",
-                "webmozart/glob": ">=2.0,<4.0",
-                "webmozart/key-value-store": "^1.0"
+                "webmozart/glob": ">=2.0,<4.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.6",
-                "symfony/filesystem": "~2.5"
+                "webmozart/key-value-store": "^1.0.0-beta5"
+            },
+            "suggest": {
+                "webmozart/key-value-store": "to use the KeyValueStoreDiscovery"
             },
             "type": "library",
             "extra": {
@@ -2561,36 +2565,37 @@
             ],
             "description": "Discovers Puli resources bound to predefined types.",
             "homepage": "http://puli.io",
-            "time": "2015-08-12 11:58:29"
+            "time": "2015-08-24 19:50:55"
         },
         {
             "name": "puli/manager",
-            "version": "1.0.0-beta6",
+            "version": "1.0.0-beta7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/puli/manager.git",
-                "reference": "a6c5adec0f14e059f6387e0fcebd70da845e34c3"
+                "reference": "9c87434a478c38785d6b20328a90963b73a847c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/puli/manager/zipball/a6c5adec0f14e059f6387e0fcebd70da845e34c3",
-                "reference": "a6c5adec0f14e059f6387e0fcebd70da845e34c3",
+                "url": "https://api.github.com/repos/puli/manager/zipball/9c87434a478c38785d6b20328a90963b73a847c7",
+                "reference": "9c87434a478c38785d6b20328a90963b73a847c7",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9",
                 "psr/log": "^1.0",
-                "puli/discovery": "^1.0",
-                "puli/repository": "^1.0",
-                "puli/url-generator": "^1.0",
+                "puli/discovery": "^1.0-beta7",
+                "puli/repository": "^1.0-beta7",
+                "puli/url-generator": "^1.0-beta2",
                 "ramsey/uuid": "^2.8",
                 "symfony/event-dispatcher": "^2.3",
                 "symfony/filesystem": "^2.3",
                 "webmozart/assert": "^1.0",
-                "webmozart/expression": "^1.0",
-                "webmozart/glob": "^3.0",
+                "webmozart/expression": "^1.0-beta3",
+                "webmozart/glob": "^3.1",
                 "webmozart/json": "^1.0",
-                "webmozart/path-util": "^2.0"
+                "webmozart/key-value-store": "^1.0-beta4",
+                "webmozart/path-util": "^2.2"
             },
             "require-dev": {
                 "basho/riak": "^1.4",
@@ -2621,41 +2626,41 @@
             ],
             "description": "Generates Puli repositories from configured packages.",
             "homepage": "http://puli.io",
-            "time": "2015-08-12 12:09:22"
+            "time": "2015-08-24 19:57:49"
         },
         {
             "name": "puli/repository",
-            "version": "1.0.0-beta6",
+            "version": "1.0.0-beta7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/puli/repository.git",
-                "reference": "4137bc4c8063e5844cd231c947d4a6a8136306c7"
+                "reference": "d4871bc9911f10d7e78aa01ee875a525dfd413cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/puli/repository/zipball/4137bc4c8063e5844cd231c947d4a6a8136306c7",
-                "reference": "4137bc4c8063e5844cd231c947d4a6a8136306c7",
+                "url": "https://api.github.com/repos/puli/repository/zipball/d4871bc9911f10d7e78aa01ee875a525dfd413cf",
+                "reference": "d4871bc9911f10d7e78aa01ee875a525dfd413cf",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9",
-                "webmozart/assert": "~1.0",
-                "webmozart/glob": "~3.0",
-                "webmozart/path-util": "~2.0"
+                "webmozart/assert": "^1.0",
+                "webmozart/glob": "^3.1",
+                "webmozart/path-util": "^2.2"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.6",
-                "symfony/filesystem": "~2.0",
-                "webmozart/key-value-store": "~1.0@beta"
+                "symfony/filesystem": "^2.0",
+                "webmozart/key-value-store": "^1.0.0-beta5"
             },
             "suggest": {
                 "symfony/filesystem": "to use the FilesystemRepository",
-                "webmozart/key-value-store": "~1.0@beta"
+                "webmozart/key-value-store": "to use the path mapping repositories"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.1-dev"
                 }
             },
             "autoload": {
@@ -2675,7 +2680,7 @@
             ],
             "description": "A filesystem-like repository for storing arbitrary resources.",
             "homepage": "http://puli.io",
-            "time": "2015-08-12 11:54:29"
+            "time": "2015-08-24 19:46:06"
         },
         {
             "name": "puli/symfony-bridge",
@@ -2779,22 +2784,22 @@
         },
         {
             "name": "puli/twig-extension",
-            "version": "1.0.0-beta5",
+            "version": "1.0.0-beta6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/puli/twig-extension.git",
-                "reference": "051f7a8f4561b8b2a9df0e435862f28f5def152a"
+                "reference": "8f72fa0b47ada12509833d83e72ce95896db54a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/puli/twig-extension/zipball/051f7a8f4561b8b2a9df0e435862f28f5def152a",
-                "reference": "051f7a8f4561b8b2a9df0e435862f28f5def152a",
+                "url": "https://api.github.com/repos/puli/twig-extension/zipball/8f72fa0b47ada12509833d83e72ce95896db54a6",
+                "reference": "8f72fa0b47ada12509833d83e72ce95896db54a6",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9",
-                "puli/repository": "^1.0",
-                "twig/twig": "^1.0",
+                "puli/repository": "^1.0-beta7",
+                "twig/twig": "^1.20|^2.0",
                 "webmozart/path-util": "^2.0"
             },
             "require-dev": {
@@ -2828,7 +2833,7 @@
             ],
             "description": "A Puli extension for the Twig templating system.",
             "homepage": "http://puli.io",
-            "time": "2015-08-12 14:12:06"
+            "time": "2015-08-24 20:24:20"
         },
         {
             "name": "puli/url-generator",
@@ -2887,16 +2892,16 @@
         },
         {
             "name": "ramsey/uuid",
-            "version": "2.8.2",
+            "version": "2.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "9c1e2d34bdefd42608c612e08d6e1da1e13a3530"
+                "reference": "767a5b5f70cd990c04ef21d8374794d1a02fa9e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/9c1e2d34bdefd42608c612e08d6e1da1e13a3530",
-                "reference": "9c1e2d34bdefd42608c612e08d6e1da1e13a3530",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/767a5b5f70cd990c04ef21d8374794d1a02fa9e8",
+                "reference": "767a5b5f70cd990c04ef21d8374794d1a02fa9e8",
                 "shasum": ""
             },
             "require": {
@@ -2942,14 +2947,14 @@
                     "homepage": "http://benramsey.com"
                 }
             ],
-            "description": "NO LONGER MAINTAINED. Use ramsey/uuid instead. A PHP 5.3+ library for generating RFC 4122 version 1, 3, 4, and 5 universally unique identifiers (UUID).",
-            "homepage": "https://github.com/ramsey/rhumsaa-uuid",
+            "description": "A PHP 5.3+ library for generating RFC 4122 version 1, 3, 4, and 5 universally unique identifiers (UUID).",
+            "homepage": "https://github.com/ramsey/uuid",
             "keywords": [
                 "guid",
                 "identifier",
                 "uuid"
             ],
-            "time": "2015-07-23 19:00:41"
+            "time": "2015-08-31 13:34:50"
         },
         {
             "name": "seld/jsonlint",
@@ -3567,20 +3572,20 @@
         },
         {
             "name": "twig/extensions",
-            "version": "v1.2.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig-extensions.git",
-                "reference": "8cf4b9fe04077bd54fc73f4fde83347040c3b8cd"
+                "reference": "449e3c8a9ffad7c2479c7864557275a32b037499"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig-extensions/zipball/8cf4b9fe04077bd54fc73f4fde83347040c3b8cd",
-                "reference": "8cf4b9fe04077bd54fc73f4fde83347040c3b8cd",
+                "url": "https://api.github.com/repos/twigphp/Twig-extensions/zipball/449e3c8a9ffad7c2479c7864557275a32b037499",
+                "reference": "449e3c8a9ffad7c2479c7864557275a32b037499",
                 "shasum": ""
             },
             "require": {
-                "twig/twig": "~1.12"
+                "twig/twig": "~1.20|~2.0"
             },
             "require-dev": {
                 "symfony/translation": "~2.3"
@@ -3591,7 +3596,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2.x-dev"
+                    "dev-master": "1.3-dev"
                 }
             },
             "autoload": {
@@ -3615,29 +3620,33 @@
                 "i18n",
                 "text"
             ],
-            "time": "2014-10-30 14:30:03"
+            "time": "2015-08-22 16:38:35"
         },
         {
             "name": "twig/twig",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "1ea4e5f81c6d005fe84d0b38e1c4f1955eb86844"
+                "reference": "204a6c94907c2c2225322c267e09adbb2b1c04fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/1ea4e5f81c6d005fe84d0b38e1c4f1955eb86844",
-                "reference": "1ea4e5f81c6d005fe84d0b38e1c4f1955eb86844",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/204a6c94907c2c2225322c267e09adbb2b1c04fd",
+                "reference": "204a6c94907c2c2225322c267e09adbb2b1c04fd",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.7"
             },
+            "require-dev": {
+                "symfony/debug": "~2.7",
+                "symfony/phpunit-bridge": "~2.7"
+            },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.20-dev"
+                    "dev-master": "1.22-dev"
                 }
             },
             "autoload": {
@@ -3672,24 +3681,27 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2015-08-12 15:56:39"
+            "time": "2015-09-13 17:12:38"
         },
         {
             "name": "webmozart/assert",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozart/assert.git",
-                "reference": "b8ef76d0f0c3b9a0a1bc987085fe0a0ddba984ab"
+                "reference": "30eed06dd6bc88410a4ff7f77b6d22f3ce13dbde"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/b8ef76d0f0c3b9a0a1bc987085fe0a0ddba984ab",
-                "reference": "b8ef76d0f0c3b9a0a1bc987085fe0a0ddba984ab",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/30eed06dd6bc88410a4ff7f77b6d22f3ce13dbde",
+                "reference": "30eed06dd6bc88410a4ff7f77b6d22f3ce13dbde",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.6"
             },
             "type": "library",
             "extra": {
@@ -3718,7 +3730,7 @@
                 "check",
                 "validate"
             ],
-            "time": "2015-05-12 15:19:25"
+            "time": "2015-08-24 13:29:44"
         },
         {
             "name": "webmozart/console",
@@ -3771,16 +3783,16 @@
         },
         {
             "name": "webmozart/expression",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozart/expression.git",
-                "reference": "73fd1ba6a326184d6204acc10ee55c1bf9da1599"
+                "reference": "c3637025f83c89e899dc37e079940f32453f9da6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/expression/zipball/73fd1ba6a326184d6204acc10ee55c1bf9da1599",
-                "reference": "73fd1ba6a326184d6204acc10ee55c1bf9da1599",
+                "url": "https://api.github.com/repos/webmozart/expression/zipball/c3637025f83c89e899dc37e079940f32453f9da6",
+                "reference": "c3637025f83c89e899dc37e079940f32453f9da6",
                 "shasum": ""
             },
             "require": {
@@ -3817,34 +3829,34 @@
                 "filter",
                 "formula"
             ],
-            "time": "2015-05-28 12:53:38"
+            "time": "2015-08-24 13:35:22"
         },
         {
             "name": "webmozart/glob",
-            "version": "3.0.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozart/glob.git",
-                "reference": "be629febc681b37fb0878fea43f3267682ed1272"
+                "reference": "44fd5671153c550a0b772d8f819bff7d913e646f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/glob/zipball/be629febc681b37fb0878fea43f3267682ed1272",
-                "reference": "be629febc681b37fb0878fea43f3267682ed1272",
+                "url": "https://api.github.com/repos/webmozart/glob/zipball/44fd5671153c550a0b772d8f819bff7d913e646f",
+                "reference": "44fd5671153c550a0b772d8f819bff7d913e646f",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
-                "webmozart/path-util": "~2.0"
+                "webmozart/path-util": "^2.2"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.6",
-                "symfony/filesystem": "~2.5"
+                "symfony/filesystem": "^2.5"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -3863,7 +3875,7 @@
                 }
             ],
             "description": "A PHP implementation of Ant's glob.",
-            "time": "2015-08-11 14:18:42"
+            "time": "2015-08-24 13:32:28"
         },
         {
             "name": "webmozart/json",
@@ -3967,16 +3979,16 @@
         },
         {
             "name": "webmozart/path-util",
-            "version": "2.2.0",
+            "version": "2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozart/path-util.git",
-                "reference": "7ec6056a604b6d017808d71f50d73155468639e4"
+                "reference": "f1c8da76b3ed86a43058fa68f59c0e4f90c69f27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/path-util/zipball/7ec6056a604b6d017808d71f50d73155468639e4",
-                "reference": "7ec6056a604b6d017808d71f50d73155468639e4",
+                "url": "https://api.github.com/repos/webmozart/path-util/zipball/f1c8da76b3ed86a43058fa68f59c0e4f90c69f27",
+                "reference": "f1c8da76b3ed86a43058fa68f59c0e4f90c69f27",
                 "shasum": ""
             },
             "require": {
@@ -4008,7 +4020,7 @@
                 }
             ],
             "description": "A robust cross-platform utility for normalizing, comparing and modifying file paths.",
-            "time": "2015-08-14 11:36:10"
+            "time": "2015-08-24 17:27:41"
         },
         {
             "name": "zf1/zend-exception",

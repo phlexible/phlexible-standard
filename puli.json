@@ -221,7 +221,8 @@
         },
         "sensio/generator-bundle": {
             "install-path": "vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle",
-            "installer": "composer"
+            "installer": "composer",
+            "env": "dev"
         },
         "sensiolabs/security-checker": {
             "install-path": "vendor/sensiolabs/security-checker",

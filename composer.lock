@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "286a77fafb456ccf05da54619c78ac67",
-    "content-hash": "8faa2c28f175b8ca84a26eaae05c2f14",
+    "hash": "7aee48652537d52e0c82fdaf820f33fc",
+    "content-hash": "f4c7cc5d0030ca01ff7742fe435a0b02",
     "packages": [
         {
             "name": "alchemy/binary-driver",
@@ -2746,30 +2746,31 @@
         },
         {
             "name": "puli/symfony-bundle",
-            "version": "1.0.0-beta7",
+            "version": "1.0.0-beta9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/puli/symfony-bundle.git",
-                "reference": "09d152059fe20f07954eb2afb6c085252d786698"
+                "reference": "58613b5b8a305a431d67bb79dd9e80076d7d8bb9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/puli/symfony-bundle/zipball/09d152059fe20f07954eb2afb6c085252d786698",
-                "reference": "09d152059fe20f07954eb2afb6c085252d786698",
+                "url": "https://api.github.com/repos/puli/symfony-bundle/zipball/58613b5b8a305a431d67bb79dd9e80076d7d8bb9",
+                "reference": "58613b5b8a305a431d67bb79dd9e80076d7d8bb9",
                 "shasum": ""
             },
             "require": {
-                "puli/composer-plugin": "^1.0",
-                "puli/discovery": "^1.0",
-                "puli/repository": "^1.0",
-                "puli/symfony-bridge": "^1.0",
-                "puli/url-generator": "^1.0",
-                "symfony/framework-bundle": "^2.3"
+                "puli/composer-plugin": "^1.0-beta8",
+                "puli/symfony-bridge": "^1.0-beta3",
+                "symfony/dependency-injection": "^2.7.3",
+                "symfony/framework-bundle": "^2.7.3"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.6",
-                "puli/twig-extension": "^1.0",
-                "symfony/twig-bundle": "^2.3"
+                "puli/cli": "^1.0-beta8",
+                "puli/discovery": "^1.0-beta8",
+                "puli/twig-extension": "^1.0-beta7",
+                "sebastian/version": "^1.0.1",
+                "symfony/twig-bundle": "^2.7.3"
             },
             "suggest": {
                 "puli/twig-extension": "Enables Puli support in Twig."
@@ -2797,7 +2798,7 @@
             ],
             "description": "Integrates the Puli library into the Symfony2 full-stack framework.",
             "homepage": "http://puli.io",
-            "time": "2015-08-12 14:24:57"
+            "time": "2015-10-05 12:18:37"
         },
         {
             "name": "puli/twig-extension",
@@ -3023,21 +3024,21 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v3.0.31",
+            "version": "v4.0.1",
             "target-dir": "Sensio/Bundle/DistributionBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "3a900814bd57bf20f9453ae81ff8772bc95d7fff"
+                "reference": "62d99ba41144e704300e40f755346553702b27c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/3a900814bd57bf20f9453ae81ff8772bc95d7fff",
-                "reference": "3a900814bd57bf20f9453ae81ff8772bc95d7fff",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/62d99ba41144e704300e40f755346553702b27c9",
+                "reference": "62d99ba41144e704300e40f755346553702b27c9",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3",
+                "php": ">=5.3.9",
                 "sensiolabs/security-checker": "~3.0",
                 "symfony/class-loader": "~2.2",
                 "symfony/framework-bundle": "~2.3",
@@ -3056,7 +3057,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-master": "4.0.x-dev"
                 }
             },
             "autoload": {
@@ -3079,7 +3080,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2015-08-03 10:07:12"
+            "time": "2015-08-03 10:07:56"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -3474,25 +3475,26 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.6.11",
+            "version": "v2.7.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "c6ab380a577e7bfb8db6e6f3105f470f97c83235"
+                "reference": "619528a274647cffc1792063c3ea04c4fa8266a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/c6ab380a577e7bfb8db6e6f3105f470f97c83235",
-                "reference": "c6ab380a577e7bfb8db6e6f3105f470f97c83235",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/619528a274647cffc1792063c3ea04c4fa8266a0",
+                "reference": "619528a274647cffc1792063c3ea04c4fa8266a0",
                 "shasum": ""
             },
             "require": {
-                "doctrine/common": "~2.3",
-                "php": ">=5.3.3",
+                "doctrine/common": "~2.4",
+                "php": ">=5.3.9",
                 "psr/log": "~1.0",
-                "twig/twig": "~1.12,>=1.12.3"
+                "twig/twig": "~1.20|~2.0"
             },
             "replace": {
+                "symfony/asset": "self.version",
                 "symfony/browser-kit": "self.version",
                 "symfony/class-loader": "self.version",
                 "symfony/config": "self.version",
@@ -3516,7 +3518,6 @@
                 "symfony/monolog-bridge": "self.version",
                 "symfony/options-resolver": "self.version",
                 "symfony/process": "self.version",
-                "symfony/propel1-bridge": "self.version",
                 "symfony/property-access": "self.version",
                 "symfony/proxy-manager-bridge": "self.version",
                 "symfony/routing": "self.version",
@@ -3540,25 +3541,30 @@
             },
             "require-dev": {
                 "doctrine/data-fixtures": "1.0.*",
-                "doctrine/dbal": "~2.2",
+                "doctrine/dbal": "~2.4",
                 "doctrine/doctrine-bundle": "~1.2",
-                "doctrine/orm": "~2.2,>=2.2.3",
+                "doctrine/orm": "~2.4,>=2.4.5",
                 "egulias/email-validator": "~1.2",
                 "ircmaxell/password-compat": "~1.0",
                 "monolog/monolog": "~1.11",
                 "ocramius/proxy-manager": "~0.4|~1.0",
-                "propel/propel1": "~1.6",
-                "symfony/phpunit-bridge": "~2.7"
+                "symfony/phpunit-bridge": "self.version"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.6-dev"
+                    "dev-master": "2.7-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Symfony\\": "src/"
+                "psr-4": {
+                    "Symfony\\Bridge\\Doctrine\\": "src/Symfony/Bridge/Doctrine/",
+                    "Symfony\\Bridge\\Monolog\\": "src/Symfony/Bridge/Monolog/",
+                    "Symfony\\Bridge\\ProxyManager\\": "src/Symfony/Bridge/ProxyManager/",
+                    "Symfony\\Bridge\\Swiftmailer\\": "src/Symfony/Bridge/Swiftmailer/",
+                    "Symfony\\Bridge\\Twig\\": "src/Symfony/Bridge/Twig/",
+                    "Symfony\\Bundle\\": "src/Symfony/Bundle/",
+                    "Symfony\\Component\\": "src/Symfony/Component/"
                 },
                 "classmap": [
                     "src/Symfony/Component/HttpFoundation/Resources/stubs",
@@ -3587,7 +3593,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-07-26 10:44:22"
+            "time": "2015-09-25 11:16:52"
         },
         {
             "name": "twig/extensions",
@@ -3753,28 +3759,29 @@
         },
         {
             "name": "webmozart/console",
-            "version": "1.0.0-beta2",
+            "version": "1.0.0-beta4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozart/console.git",
-                "reference": "09af2fe59821b200acb7dfd37106d9eaf0f37840"
+                "reference": "ed7b1fb437cbf6fc5bebdcb802b2f2070c03d1ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/console/zipball/09af2fe59821b200acb7dfd37106d9eaf0f37840",
-                "reference": "09af2fe59821b200acb7dfd37106d9eaf0f37840",
+                "url": "https://api.github.com/repos/webmozart/console/zipball/ed7b1fb437cbf6fc5bebdcb802b2f2070c03d1ab",
+                "reference": "ed7b1fb437cbf6fc5bebdcb802b2f2070c03d1ab",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9",
-                "symfony/console": "~2.5",
-                "symfony/event-dispatcher": "~2.5",
-                "symfony/process": "~2.5",
-                "webmozart/assert": "~1.0"
+                "symfony/console": "^2.7",
+                "symfony/event-dispatcher": "^2.5",
+                "symfony/process": "^2.5",
+                "webmozart/assert": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.6",
-                "symfony/filesystem": "~2.3"
+                "sebastian/version": "^1.0.1",
+                "symfony/filesystem": "^2.3"
             },
             "type": "library",
             "extra": {
@@ -3798,7 +3805,7 @@
                 }
             ],
             "description": "A usable, beautiful and easily testable console toolkit written in PHP.",
-            "time": "2015-05-28 13:11:51"
+            "time": "2015-10-02 13:37:46"
         },
         {
             "name": "webmozart/expression",

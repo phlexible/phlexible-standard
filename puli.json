@@ -4,7 +4,8 @@
     "config": {
         "repository": {
             "type": "filesystem"
-        }
+        },
+        "bootstrap-file": "vendor/autoload.php"
     },
     "packages": {
         "alchemy/binary-driver": {

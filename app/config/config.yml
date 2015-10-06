@@ -30,6 +30,7 @@ framework:
         handler_id:  ~
     fragments:       ~
     http_method_override: true
+    assets: ~
 
 # Twig Configuration
 twig:
@@ -106,17 +107,17 @@ phlexible_meta_set:
 phlexible_media_cache:
     storages:
         default:
-            id: phlexible_media_cache.storage.local #doku
+            id: phlexible_media_cache.storage.local
             options:
                 storage_dir: %media_cache_storage_dir%
 
 phlexible_media_manager:
     volumes:
         default:
-            id: 492d88c5-dd48-4d73-b849-1cacc0a80056 #doku
+            id: 492d88c5-dd48-4d73-b849-1cacc0a80056
             root_dir: %media_manager_root_dir%
-            quota: 1000000000 #doku
-            driver: phlexible_media_manager.driver.doctrine #doku
+            quota: 1000000000
+            driver: phlexible_media_manager.driver.doctrine
 
 phlexible_siteroot:
     mappings:
@@ -135,6 +136,6 @@ phlexible_media_tool:
         ffprobe: %tool_ffprobe%
         ffmpeg: %tool_ffmpeg%
     imagine:
-        driver: %imagine_driver%  #doku
+        driver: %imagine_driver%
     image_analyzer:
-        driver: %image_analyzer_driver%  #doku
+        driver: %image_analyzer_driver%

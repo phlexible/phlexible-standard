@@ -22,10 +22,10 @@ security:
         phlexible:
             pattern:    ^/admin
             form_login:
-                provider:      fos_userbundle
-                csrf_provider: security.csrf.token_manager
-                login_path:    fos_user_security_login
-                check_path:    fos_user_security_check
+                provider:             fos_userbundle
+                csrf_token_generator: security.csrf.token_manager
+                login_path:           fos_user_security_login
+                check_path:           fos_user_security_check
             logout:
                 path:     fos_user_security_logout
                 target:   /admin
@@ -33,7 +33,7 @@ security:
             switch_user:
                 role:     ROLE_ALLOWED_TO_SWITCH
             remember_me:
-                key:      %secret%
+                secret:   "%secret%"
                 lifetime: 604800
                 path:     /
                 domain:   ~

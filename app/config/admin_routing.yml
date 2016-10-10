@@ -66,10 +66,6 @@ phlexible_siteroots:
     resource: "@PhlexibleSiterootBundle/Controller/"
     type:     annotation
 
-#phlexible_tasks:
-#    resource: "@PhlexibleTaskBundle/Controller/"
-#    type:     annotation
-
 phlexible_teasers_layout:
     resource: "@PhlexibleTeaserBundle/Controller/LayoutController.php"
     type:     annotation

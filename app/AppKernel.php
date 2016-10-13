@@ -31,7 +31,6 @@ class AppKernel extends Kernel
             new Phlexible\Bundle\DashboardBundle\PhlexibleDashboardBundle(),
             new Phlexible\Bundle\SearchBundle\PhlexibleSearchBundle(),
             new Phlexible\Bundle\AccessControlBundle\PhlexibleAccessControlBundle(),
-            new Phlexible\Bundle\DataSourceBundle\PhlexibleDataSourceBundle(),
 
             // phlexible.media
             new Phlexible\Bundle\MediaCacheBundle\PhlexibleMediaCacheBundle(),
@@ -49,7 +48,6 @@ class AppKernel extends Kernel
             new Phlexible\Bundle\ElementBundle\PhlexibleElementBundle(),
             new Phlexible\Bundle\TeaserBundle\PhlexibleTeaserBundle(),
             new Phlexible\Bundle\TreeBundle\PhlexibleTreeBundle(),
-            new Phlexible\Bundle\FrontendBundle\PhlexibleFrontendBundle(),
             new Phlexible\Bundle\FrontendMediaBundle\PhlexibleFrontendMediaBundle(),
             new Phlexible\Bundle\ElementRendererBundle\PhlexibleElementRendererBundle(),
         );

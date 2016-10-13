@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c3abde95b5498cfc985dbb09eb2b75ba",
-    "content-hash": "e9b54d9031c4539a96f10acf282ebdeb",
+    "hash": "51c8657b7627579762f279ec72480dde",
+    "content-hash": "f5b35480673ac1c967405282545aae9b",
     "packages": [
         {
             "name": "alchemy/binary-driver",
@@ -1920,17 +1920,17 @@
         },
         {
             "name": "phlexible/phlexible",
-            "version": "1.0.14",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "ssh://git@git.brainbits.net/phlex/phlexible.git",
-                "reference": "1eb5579cc5a381011fac589ae2d157bc887e38b3"
+                "reference": "170d2e5076bfaba6bde032fbb4b770d8ce84b1aa"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://packages.brainbits.net/repo/private/dist/phlexible-phlexible-1.0.14-1a6045.tar",
-                "reference": "1eb5579cc5a381011fac589ae2d157bc887e38b3",
-                "shasum": "76031db3629d1686406f3a0a8b5b295c800f4257"
+                "url": "https://packages.brainbits.net/repo/private/dist/phlexible-phlexible-1.1.0-3d32a1.tar",
+                "reference": "170d2e5076bfaba6bde032fbb4b770d8ce84b1aa",
+                "shasum": "2da682c3a88a5407c611452f5730e59d072d4985"
             },
             "require": {
                 "alchemy/phpexiftool": "~0.6",
@@ -1990,7 +1990,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-data-source-cleanups": "1.1-dev"
                 }
             },
             "autoload": {
@@ -2005,7 +2005,7 @@
             "keywords": [
                 "phlexible"
             ],
-            "time": "2016-10-10 13:13:24"
+            "time": "2016-10-13 13:35:02"
         },
         {
             "name": "php-ffmpeg/extras",
@@ -4670,7 +4670,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "~5.6"
+        "php": "~5.6|~7.0"
     },
     "platform-dev": []
 }

@@ -2,12 +2,12 @@ phlexible_accesscontrol:
     resource: "@PhlexibleAccessControlBundle/Controller/"
     type:     annotation
 
-phlexible_dashboard:
-    resource: "@PhlexibleDashboardBundle/Controller/"
+phlexible_cms_preview:
+    resource: "@PhlexibleCmsBundle/Controller/PreviewController.php"
     type:     annotation
 
-phlexible_datasources:
-    resource: "@PhlexibleDataSourceBundle/Controller/"
+phlexible_dashboard:
+    resource: "@PhlexibleDashboardBundle/Controller/"
     type:     annotation
 
 phlexible_elements:
@@ -16,10 +16,6 @@ phlexible_elements:
 
 phlexible_elementtypes:
     resource: "@PhlexibleElementtypeBundle/Controller/"
-    type:     annotation
-
-phlexible_frontend_preview:
-    resource: "@PhlexibleFrontendBundle/Controller/PreviewController.php"
     type:     annotation
 
 phlexible_frontendmedia_folder:

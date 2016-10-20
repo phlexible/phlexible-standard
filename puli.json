@@ -12,16 +12,12 @@
             "install-path": "vendor/alchemy/binary-driver",
             "installer": "composer"
         },
+        "alchemy/phpexiftool": {
+            "install-path": "vendor/alchemy/phpexiftool",
+            "installer": "composer"
+        },
         "alchemy/zippy": {
             "install-path": "vendor/alchemy/zippy",
-            "installer": "composer"
-        },
-        "brainbits/image-analyzer": {
-            "install-path": "vendor/brainbits/image-analyzer",
-            "installer": "composer"
-        },
-        "brainbits/mime": {
-            "install-path": "vendor/brainbits/mime",
             "installer": "composer"
         },
         "cocur/slugify": {
@@ -57,7 +53,7 @@
             "installer": "composer"
         },
         "doctrine/doctrine-cache-bundle": {
-            "install-path": "vendor/doctrine/doctrine-cache-bundle/Doctrine/Bundle/DoctrineCacheBundle",
+            "install-path": "vendor/doctrine/doctrine-cache-bundle",
             "installer": "composer"
         },
         "doctrine/inflector": {
@@ -88,20 +84,16 @@
             "install-path": "vendor/friendsofsymfony/user-bundle",
             "installer": "composer"
         },
-        "guzzle/guzzle": {
-            "install-path": "vendor/guzzle/guzzle",
-            "installer": "composer"
-        },
-        "igorw/file-serve-bundle": {
-            "install-path": "vendor/igorw/file-serve-bundle/Igorw/FileServeBundle",
-            "installer": "composer"
-        },
         "imagine/imagine": {
             "install-path": "vendor/imagine/imagine",
             "installer": "composer"
         },
         "incenteev/composer-parameter-handler": {
             "install-path": "vendor/incenteev/composer-parameter-handler",
+            "installer": "composer"
+        },
+        "ircmaxell/password-compat": {
+            "install-path": "vendor/ircmaxell/password-compat",
             "installer": "composer"
         },
         "jdorn/sql-formatter": {
@@ -136,6 +128,10 @@
             "install-path": "vendor/padraic/phar-updater",
             "installer": "composer"
         },
+        "paragonie/random_compat": {
+            "install-path": "vendor/paragonie/random_compat",
+            "installer": "composer"
+        },
         "phlexible/phlexible": {
             "install-path": "vendor/phlexible/phlexible",
             "installer": "composer"
@@ -154,14 +150,6 @@
         },
         "phpexiftool/exiftool": {
             "install-path": "vendor/phpexiftool/exiftool",
-            "installer": "composer"
-        },
-        "phpexiftool/phpexiftool": {
-            "install-path": "vendor/phpexiftool/phpexiftool",
-            "installer": "composer"
-        },
-        "pimple/pimple": {
-            "install-path": "vendor/pimple/pimple",
             "installer": "composer"
         },
         "psr/log": {
@@ -213,7 +201,7 @@
             "installer": "composer"
         },
         "sensio/distribution-bundle": {
-            "install-path": "vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle",
+            "install-path": "vendor/sensio/distribution-bundle",
             "installer": "composer"
         },
         "sensio/framework-extra-bundle": {
@@ -221,7 +209,7 @@
             "installer": "composer"
         },
         "sensio/generator-bundle": {
-            "install-path": "vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle",
+            "install-path": "vendor/sensio/generator-bundle",
             "installer": "composer",
             "env": "dev"
         },
@@ -243,6 +231,47 @@
         },
         "symfony/monolog-bundle": {
             "install-path": "vendor/symfony/monolog-bundle",
+            "installer": "composer"
+        },
+        "symfony/phpunit-bridge": {
+            "install-path": "vendor/symfony/phpunit-bridge",
+            "installer": "composer",
+            "env": "dev"
+        },
+        "symfony/polyfill-apcu": {
+            "install-path": "vendor/symfony/polyfill-apcu",
+            "installer": "composer"
+        },
+        "symfony/polyfill-intl-icu": {
+            "install-path": "vendor/symfony/polyfill-intl-icu",
+            "installer": "composer"
+        },
+        "symfony/polyfill-mbstring": {
+            "install-path": "vendor/symfony/polyfill-mbstring",
+            "installer": "composer"
+        },
+        "symfony/polyfill-php54": {
+            "install-path": "vendor/symfony/polyfill-php54",
+            "installer": "composer"
+        },
+        "symfony/polyfill-php55": {
+            "install-path": "vendor/symfony/polyfill-php55",
+            "installer": "composer"
+        },
+        "symfony/polyfill-php56": {
+            "install-path": "vendor/symfony/polyfill-php56",
+            "installer": "composer"
+        },
+        "symfony/polyfill-php70": {
+            "install-path": "vendor/symfony/polyfill-php70",
+            "installer": "composer"
+        },
+        "symfony/polyfill-util": {
+            "install-path": "vendor/symfony/polyfill-util",
+            "installer": "composer"
+        },
+        "symfony/security-acl": {
+            "install-path": "vendor/symfony/security-acl",
             "installer": "composer"
         },
         "symfony/swiftmailer-bundle": {
@@ -279,10 +308,6 @@
         },
         "webmozart/json": {
             "install-path": "vendor/webmozart/json",
-            "installer": "composer"
-        },
-        "webmozart/key-value-store": {
-            "install-path": "vendor/webmozart/key-value-store",
             "installer": "composer"
         },
         "webmozart/path-util": {

@@ -2,6 +2,7 @@ imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
     - { resource: services.yml }
+    - { resource: version.yml }
 
 # Put parameters here that don't need to change on each machine where the app is deployed
 # http://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
@@ -21,7 +22,6 @@ framework:
     #serializer:      { enable_annotations: true }
     templating:
         engines: ['twig']
-        #assets_version: SomeVersionScheme
     default_locale:  "%locale%"
     trusted_hosts:   ~
     trusted_proxies: ~
@@ -30,7 +30,9 @@ framework:
         handler_id:  ~
     fragments:       ~
     http_method_override: true
-    assets: ~
+    assets:
+        version: "%project_version%"
+        version_format: "%%s?v=%%s"
 
 # Twig Configuration
 twig:
@@ -70,12 +72,6 @@ swiftmailer:
 # CMF Routing Bundle
 cmf_routing: ~
 
-# Igorw File Serve Bundle
-igorw_file_serve:
-    factory: php # php
-    #factory: sendfile # nginx
-    #factory: xsendfile # apache
-
 # FOS User Bundle
 fos_user:
     db_driver: orm
@@ -85,8 +81,8 @@ fos_user:
 phlexible_gui:
     project:
         title:   Your Project Title
-        version: 1.0.0
-        url:     project.dev
+        version: "%project_version%"
+        url:     "%project.dev%"
     languages:
         default:   en
         available: en,de
@@ -109,33 +105,34 @@ phlexible_media_cache:
         default:
             id: phlexible_media_cache.storage.local
             options:
-                storage_dir: %media_cache_storage_dir%
+                storage_dir: "%media_cache_storage_dir%"
 
 phlexible_media_manager:
     volumes:
         default:
             id: 492d88c5-dd48-4d73-b849-1cacc0a80056
-            root_dir: %media_manager_root_dir%
+            root_dir: "%media_manager_root_dir%"
             quota: 1000000000
             driver: phlexible_media_manager.driver.doctrine
 
 phlexible_siteroot:
     mappings:
-        PROJECT.dev: %PROJECT.dev%
+        - from: "%project.dev%"
+          to: project.dev
 
 phlexible_media_tool:
     swftools:
-        pdf2swf: %tool_pdf2swf%
+        pdf2swf: "%tool_pdf2swf%"
     poppler:
-        pdfinfo: %tool_pdfinfo%
-        pdftotext: %tool_pdftotext%
-        pdftohtml: %tool_pdftohtml%
+        pdfinfo: "%tool_pdfinfo%"
+        pdftotext: "%tool_pdftotext%"
+        pdftohtml: "%tool_pdftohtml%"
     mime:
-        file: %tool_file%
+        file: "%tool_file%"
     ffmpeg:
-        ffprobe: %tool_ffprobe%
-        ffmpeg: %tool_ffmpeg%
+        ffprobe: "%tool_ffprobe%"
+        ffmpeg: "%tool_ffmpeg%"
     imagine:
-        driver: %imagine_driver%
+        driver: "%imagine_driver%"
     image_analyzer:
-        driver: %image_analyzer_driver%
+        driver: "%image_analyzer_driver%"
